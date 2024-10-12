@@ -6,7 +6,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import Spinner from "react-bootstrap/Spinner";
 
-const addcontactsApi = "http://localhost:5000/addcontacts";
+const addcontactsApi = "https://digimenu-backend.onrender.com/addcontacts";
 
 export const Contacts = () => {
   const naviget = useNavigate();
