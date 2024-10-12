@@ -7,7 +7,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Spinner } from "react-bootstrap";
 
-const loginApi = "http://localhost:5000/login";
+const loginApi = "https://digimenu-backend.onrender.com/login";
 
 export const Login = () => {
   const navigate = useNavigate();
