@@ -7,7 +7,7 @@ import { toast } from "sonner";
 import { Link, useNavigate } from "react-router-dom";
 import { Spinner } from "react-bootstrap";
 
-const signUpApi = "http://localhost:5000/register";
+const signUpApi = "https://digimenu-backend.onrender.com/register";
 
 export const Signup = () => {
   const navigate = useNavigate();
