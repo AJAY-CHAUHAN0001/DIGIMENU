@@ -7,7 +7,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Spinner } from "react-bootstrap";
 
-// const loginApi = "https://digimenu-backend.onrender.com";
+const loginApi = "https://digimenu-backend.onrender.com/login";
 
 export const Login = () => {
   const navigate = useNavigate();
@@ -35,7 +35,7 @@ export const Login = () => {
       password: pwd,
     };
     try {
-      const response = await axios.post("https://digimenu-backend.onrender.com/login", data);
+      const response = await axios.post(loginApi, data);
       setTimeout(() => {
         if (response.data.success) {
           toast.success(response.data.message);
