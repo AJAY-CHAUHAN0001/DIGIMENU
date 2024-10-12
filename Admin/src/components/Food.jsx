@@ -4,10 +4,10 @@ import { toast } from "sonner";
 import axios from "axios";
 import "../components/Food.css";
 
-const foodGroupApi = "http://localhost:5000/foodgroup";
-const addfoodgroupApi = "http://localhost:5000/addfoodgroup";
-const updateFoodGroupApi = "http://localhost:5000/updatefoodgroup";
-const delFoodGroupApi = "http://localhost:5000/delfoodgroup";
+const foodGroupApi = "https://digimenu-backend.onrender.com/foodgroup";
+const addfoodgroupApi = "https://digimenu-backend.onrender.com/addfoodgroup";
+const updateFoodGroupApi = "https://digimenu-backend.onrender.com/updatefoodgroup";
+const delFoodGroupApi = "https://digimenu-backend.onrender.com/delfoodgroup";
 
 export const Food = () => {
   useEffect(() => {
