@@ -5,10 +5,10 @@ import Button from "react-bootstrap/Button";
 import "../components/Menugroup.css";
 import { toast } from "sonner";
 
-const menuGroupApi = "http://localhost:5000/menu";
-const addMenuApi = "http://localhost:5000/addmenu";
-const updateMenuApi = "http://localhost:5000/updatemenu";
-const delMenuApi = "http://localhost:5000/delmenu";
+const menuGroupApi = "https://digimenu-backend.onrender.com/menu";
+const addMenuApi = "https://digimenu-backend.onrender.com/addmenu";
+const updateMenuApi = "https://digimenu-backend.onrender.com/updatemenu";
+const delMenuApi = "https://digimenu-backend.onrender.com/delmenu";
 
 export const Menugroup = () => {
   useEffect(() => {
