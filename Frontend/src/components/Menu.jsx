@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import Table from "react-bootstrap/Table";
 import { toast } from "sonner";
 
-const digiMenuApi = "http://localhost:5000/menucard";
+const digiMenuApi = "https://digimenu-backend.onrender.com/menucard";
 
 const Menu = () => {
   useEffect(() => {
