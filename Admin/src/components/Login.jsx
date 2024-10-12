@@ -1,7 +1,7 @@
 import { toast } from "sonner";
-import { Label } from "@/components/ui/label";
+import { Label } from "../components/ui/label";
 import React, { useState } from "react";
-import { Input } from "@/components/ui/input";
+import { Input } from "../components/ui/input";
 import { Button } from "./ui/button";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
