@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 const { body, validationResult } = require('express-validator')
 app.use(bodyParser.urlencoded({ extended: true }));
-const PORT = 5000;
+const PORT = Process.env || 5000;
 // const cors = require('cors');
 
 // const corsOptions = {
