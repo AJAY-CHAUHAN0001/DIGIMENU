@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react";
 import { Button, Table } from "react-bootstrap";
 import { toast } from "sonner";
 
-const userDetailsApi = "http://localhost:5000/contacts";
-const delContactApi = "http://localhost:5000/delcontacts";
+const userDetailsApi = "https://digimenu-backend.onrender.com/contacts";
+const delContactApi = "https://digimenu-backend.onrender.com/delcontacts";
 
 export const Contact = () => {
   useEffect(() => {
