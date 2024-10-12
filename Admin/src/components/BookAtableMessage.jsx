@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react";
 import { Button, Table } from "react-bootstrap";
 import { toast } from "sonner";
 
-const booktableApi = "http://localhost:5000/booktable";
-const delbooktableApi = "http://localhost:5000/delbooktables";
+const booktableApi = "https://digimenu-backend.onrender.com/booktable";
+const delbooktableApi = "https://digimenu-backend.onrender.com/delbooktables";
 
 export const BookAtableMessage = () => {
   useEffect(() => {
