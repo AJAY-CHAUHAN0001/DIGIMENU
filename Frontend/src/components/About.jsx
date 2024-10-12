@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import '../components/About.css'
 import about from '../assets/about.jpg'
-import Card from "react-bootstrap/Card";
-import gallery from '../assets/Gallery-1.jpg';
 import  Modal  from 'react-modal';
 import video from '../assets/resto-videp.mp4'
 
