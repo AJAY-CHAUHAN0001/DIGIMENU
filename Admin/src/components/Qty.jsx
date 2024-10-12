@@ -3,10 +3,10 @@ import { Button, Table } from "react-bootstrap";
 import { toast } from "sonner";
 import axios from "axios";
 
-const qtyGroupApi = "http://localhost:5000/qtymast";
-const addQtygroupApi = "http://localhost:5000/addqtymast";
-const upQtygroupApi = "http://localhost:5000/updateqtymast";
-const delQtygroupApi = "http://localhost:5000/delqtymast";
+const qtyGroupApi = "https://digimenu-backend.onrender.com/qtymast";
+const addQtygroupApi = "https://digimenu-backend.onrender.com/addqtymast";
+const upQtygroupApi = "https://digimenu-backend.onrender.com/updateqtymast";
+const delQtygroupApi = "https://digimenu-backend.onrender.com/delqtymast";
 
 export const Qty = () => {
   useEffect(() => {
