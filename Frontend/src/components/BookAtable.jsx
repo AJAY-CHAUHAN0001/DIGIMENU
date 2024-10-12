@@ -7,7 +7,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import Spinner from "react-bootstrap/Spinner";
 
-const booktableApi = "http://localhost:5000/booktables";
+const booktableApi = "https://digimenu-backend.onrender.com/booktables";
 
 export const BookAtable = () => {
   const navigate = useNavigate();
