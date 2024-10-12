@@ -1,0 +1,102 @@
+.carddemochefs {
+  display: block;
+  padding: 8px 15px;
+}
+
+.carddemochefs .card {
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  left: 190px;
+}
+
+.carddemochefs .card Img {
+  /* visibility:collapse; */
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+}
+
+.carddemochefs .card Img:hover {
+  transform: scale(1.1);
+}
+#chefsdemo {
+  border-color: rgba(0, 0, 0, 0.199);
+  background-color: #44444411;
+}
+
+.namechefs {
+  display: flex;
+  position: absolute;
+  padding: 40px 130px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.178);
+  left: 230px;
+  margin-top: -45px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.namechefs-1 {
+  display: flex;
+  position: absolute;
+  padding: 40px 130px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.178);
+  left: 42%;
+  margin-top: -45px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.namechefs-2 {
+  display: flex;
+  position: absolute;
+  padding: 40px 130px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.178);
+  left: 67%;
+  margin-top: -45px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.namechef h1 {
+  position: absolute;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #433f39;
+  margin-left: 230px;
+  margin-top: -35px;
+}
+
+.namechef h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: color-mix(in srgb, #444444, transparent 50%);
+  bottom: -10px;
+  left: 0;
+}
+
+.namechef span {
+  display: block;
+  position: absolute;
+  margin-left: 230px;
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.social-icon a {
+  position: relative;
+  left: 380px;
+  bottom: -10px;
+  color: color-mix(in srgb, var(--default-color), transparent 60%);
+  margin: 0 3px;
+}

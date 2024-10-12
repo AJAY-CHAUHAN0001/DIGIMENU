@@ -1,0 +1,35 @@
+.food-input p{
+    position: absolute;
+    left: 30px;
+    top: 70px;
+}
+
+.food-input input{
+    position: relative;
+    outline: none;
+    float: right;
+    top: -8px;
+    left: 50px;
+    border:  1px solid #00000031;
+    transition: 0.5s;
+}
+
+.add-group button{
+    margin-top: 10px;
+}
+
+.food-input1 p{
+    position: absolute;
+    left: 30px;
+    top: 70px;
+}
+
+.food-input1 input{
+    position: relative;
+    outline: none;
+    float: right;
+    top: -8px;
+    left: 50px;
+    border:  1px solid #00000031;
+    transition: 0.5s;
+}

@@ -1,0 +1,51 @@
+.menu-1 button {
+  border: none;
+  color: darkorange;
+  font-size: 20px;
+  padding: 5px 25px;
+  border-radius: 20px;
+  font-weight: 500;
+  pointer-events: none;
+}
+
+.menu-1 h1 {
+  font-weight: 700;
+}
+
+.menu-1 span {
+  color: darkorange;
+}
+
+.menu-2 {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 60px;
+  cursor: pointer;
+  font-weight: 500;
+  font-style: normal;
+}
+.menu-2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-2 a:hover {
+  color: darkorange;
+  transition: 0.5s;
+}
+
+.menutable tr th {
+  background-color: rgba(0, 0, 0, 0.144);
+  font-size: large;
+  text-align: left;
+  padding-left: 120px;
+}
+.menubody tr td {
+  background-color: rgba(0, 0, 0, 0.151);
+  color: orange;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 120px;
+}

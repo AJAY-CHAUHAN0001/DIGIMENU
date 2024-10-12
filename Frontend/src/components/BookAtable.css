@@ -1,0 +1,96 @@
+.book-a-table .container h2{
+    display: inline-block;
+    background-color: rgba(255, 166, 0, 0.233);
+    color: darkorange;
+    border-radius: 20px;
+    padding: 8px 18px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.book-a-table .container span{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.book-a-table .reservation-img{
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.book-a-table .reservation-img img{
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  transition:all ease-in-out 0.7s;
+  /* box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5); */
+}
+
+.book-a-table .reservation-img img:hover{
+    transform:scale(1.1);
+}
+
+.book-a-table .reservation-form-bg {
+  background: color-mix(in srgb, var(--default-color), transparent 97%);
+}
+
+.book-a-table .table-form {
+  padding: 30px;
+}
+
+@media (max-width: 575px) {
+  .book-a-table .table-form {
+    padding: 20px;
+  }
+}
+
+.book-a-table .table-form input[type="text"],
+.book-a-table .table-form input[type="email"],
+.book-a-table .table-form input[type="number"],
+.book-a-table .table-form input[type="date"],
+.book-a-table .table-form input[type="time"],
+.book-a-table .table-form textarea {
+  font-size: 14px;
+  padding: 10px 15px;
+  box-shadow: none;
+  border-radius: 0;
+  color: var(--default-color);
+  background-color: color-mix(
+    in srgb,
+    var(--background-color),
+    transparent 20%
+  );
+  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+}
+
+.book-a-table .table-form input[type="text"]:focus,
+.book-a-table .table-form input[type="email"]:focus,
+.book-a-table .table-form input[type="number"]:focus,
+.book-a-table .table-form input[type="date"]:focus,
+.book-a-table .table-form input[type="time"]:focus,
+.book-a-table .table-form textarea:focus {
+  border-color: var(--accent-color);
+}
+
+.book-a-table .table-form input[type="text"]::placeholder,
+.book-a-table .table-form input[type="email"]::placeholder,
+.book-a-table .table-form input[type="number"]::placeholder,
+.book-a-table .table-form input[type="date"]::placeholder,
+.book-a-table .table-form input[type="time"]::placeholder,
+.book-a-table .table-form textarea::placeholder {
+  color: color-mix(in srgb, var(--default-color), transparent 70%);
+}
+
+.book-a-table .table-form button[type="submit"] {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  border: 0;
+  padding: 14px 60px;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.book-a-table .table-form button[type="submit"]:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+}

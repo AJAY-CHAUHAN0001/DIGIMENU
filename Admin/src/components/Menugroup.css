@@ -1,0 +1,87 @@
+.menu-btn1 i{
+    position:absolute;
+    top: -80px;
+    right: -80px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.menu-input1 p{
+    position: absolute;
+    top: 80px;
+    left: 90px;
+}
+.menu-input1 input{
+    position: absolute;
+    outline: none;
+    top: 80px;
+    left: 190px;
+    border:  1px solid #00000031;
+   
+}
+
+.menu-input2 p{
+    position: absolute;
+    top: 120px;
+    left: 90px;
+}
+
+.menu-input2 input{
+    position: absolute;
+    outline: none;
+    top: 120px;
+    left: 190px;
+    border:  1px solid #00000031;
+}
+
+.menu-input3 p{
+    position: absolute;
+    top: 160px;
+    left: 90px;
+}
+
+.menu-input3 input{
+    position: absolute;
+    outline: none;
+    top: 160px;
+    left: 190px;
+    border:  1px solid #00000031;
+}
+
+.menu-input4 p{
+    position: absolute;
+    top: 200px;
+    left: 90px;
+}
+
+.menu-input4 input{
+    position: relative;
+    outline: none;
+    left: 40px;
+    top: 28px;
+    border:  1px solid #00000031;
+}
+
+.add-data button{
+    position: relative;
+    top: 45px;
+}
+
+.menu-btn2 i{
+    position:absolute;
+    top: -80px;
+    right: -80px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.315);
+    cursor: pointer;
+}
+
+.add-data1 button{
+    position: relative;
+    top: 45px;
+    left: 30px;
+}
+
+
+#menuclose i:hover{
+    color: blueviolet;
+}
